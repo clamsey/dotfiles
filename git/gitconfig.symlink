@@ -1,0 +1,14 @@
+[user]
+  email = cls@gatech.edu
+  name = csmith
+[core]
+  excludesfile = ${HOME}/.gitignore
+[color]
+  ui = auto
+[alias]
+  lol = log --oneline --graph --decorate
+  count   = !git shortlog -sn
+  stat = status
+  ns = diff --name-status
+[merge]
+	conflictstyle = diff3
