@@ -14,8 +14,8 @@ if [[ -a ~/.localrc ]]; then
 fi
 
 # Make sure that __git_ps1 is defined.
-if [[ -f /etc/bash_completion.d/git ]]; then
-  source /etc/bash_completion.d/git
+if [[ -f /etc/bash_completion.d/git-completion ]]; then
+  source /etc/bash_completion.d/git-completion
 fi
 if [[ -f /etc/bash_completion.d/git-prompt ]]; then
   source /etc/bash_completion.d/git-prompt
@@ -37,3 +37,4 @@ for file in $config_files ; do
 done
 
 unset config_files
+
