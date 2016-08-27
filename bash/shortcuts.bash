@@ -12,6 +12,7 @@ alias md5="openssl md5"
 
 # don't type sudo <package manager> every time
 alias yum="sudo yum"
+alias apt="sudo apt"
 
 # ls shortcuts
 alias ll="ls -l"
