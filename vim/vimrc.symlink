@@ -4,6 +4,7 @@ set bg=dark
 set ts=4
 set expandtab
 set shiftwidth=4
+set hlsearch
 
 " Highlight trailing whitespace.
 :autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
