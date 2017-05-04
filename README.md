@@ -10,7 +10,7 @@ Your dotfiles are how you personalize your system. These are mine, based on
 Run this:
 
 ```sh
-git clone https://llcad-github/csmith/dotfiles.git ~/.dotfiles
+git clone https://github.com/clamsey/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
